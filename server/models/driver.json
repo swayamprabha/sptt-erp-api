@@ -1,0 +1,45 @@
+{
+  "name": "Driver",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "driverName": {
+      "type": "string",
+      "required": true
+    },
+    "dlNumber": {
+      "type": "string",
+      "required": true
+    },
+    "driverAddress": {
+      "type": "string",
+      "required": true
+    },
+    "driverDOB": {
+      "type": "date",
+      "required": true
+    },
+    "driverDOA": {
+      "type": "date"
+    },
+    "driverContact": {
+      "type": "number",
+      "required": true
+    },
+    "dlExpiry": {
+      "type": "date",
+      "required": true
+    },
+    "badgeExpiry": {
+      "type": "date",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

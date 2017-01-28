@@ -31,5 +31,29 @@
   "Role": {
     "dataSource": "db",
     "public": false
+  },
+  "Driver": {
+    "dataSource": "mongoDs",
+    "public": true
+  },
+  "VehicleCategory": {
+    "dataSource": "mongoDs",
+    "public": true
+  },
+  "Vehicle": {
+    "dataSource": "mongoDs",
+    "public": true
+  },
+  "AlldaySummary": {
+    "dataSource": "mongoDs",
+    "public": true
+  },
+  "TripSummary": {
+    "dataSource": "mongoDs",
+    "public": true
+  },
+  "OperatorCategory": {
+    "dataSource": "mongoDs",
+    "public": true
   }
 }

@@ -1,0 +1,46 @@
+{
+  "name": "Vehicle",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "regNumber": {
+      "type": "string",
+      "required": true
+    },
+    "vehicleBrand": {
+      "type": "string",
+      "required": true
+    },
+    "vehicleModel": {
+      "type": "string",
+      "required": true
+    },
+    "vehicleOwner": {
+      "type": "string",
+      "required": true
+    },
+    "insuranceDuedate": {
+      "type": "date",
+      "required": true
+    },
+    "roadtaxDuedata": {
+      "type": "date",
+      "required": true
+    },
+    "serviceDuedata": {
+      "type": "date",
+      "required": true
+    },
+    "ownershipType": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

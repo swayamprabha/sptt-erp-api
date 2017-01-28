@@ -1,0 +1,56 @@
+{
+  "name": "TripSummary",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "tripOrigin": {
+      "type": "string"
+    },
+    "tripDestination": {
+      "type": "string"
+    },
+    "customerName": {
+      "type": "string"
+    },
+    "rideKMS": {
+      "type": "number",
+      "required": true
+    },
+    "billAmount": {
+      "type": "number",
+      "required": true
+    },
+    "cashCollected": {
+      "type": "number"
+    },
+    "onlinePayment": {
+      "type": "number"
+    },
+    "olaMoney": {
+      "type": "number"
+    },
+    "paytm": {
+      "type": "number"
+    },
+    "self": {
+      "type": "number"
+    },
+    "balance": {
+      "type": "number"
+    },
+    "airportToll": {
+      "type": "number"
+    },
+    "rideEarnings": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

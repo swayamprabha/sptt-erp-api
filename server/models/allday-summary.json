@@ -1,0 +1,85 @@
+{
+  "name": "AlldaySummary",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "date": {
+      "type": "date",
+      "required": true
+    },
+    "loggedinDuration": {
+      "type": "number",
+      "required": true
+    },
+    "openingOdo": {
+      "type": "number"
+    },
+    "closingOdo": {
+      "type": "number"
+    },
+    "cashPaidByDriver": {
+      "type": "number"
+    },
+    "olaPayment": {
+      "type": "number"
+    },
+    "bankTransfer": {
+      "type": "number"
+    },
+    "penalty": {
+      "type": "number"
+    },
+    "cancellationCharges": {
+      "type": "number"
+    },
+    "fuel": {
+      "type": "number"
+    },
+    "parkingFee": {
+      "type": "number"
+    },
+    "fine": {
+      "type": "number"
+    },
+    "toll": {
+      "type": "number"
+    },
+    "throughBank": {
+      "type": "number"
+    },
+    "miscExpense": {
+      "type": "number"
+    },
+    "internetCharges": {
+      "type": "number"
+    },
+    "bata": {
+      "type": "number"
+    },
+    "vehicleMBG": {
+      "type": "number",
+      "required": true
+    },
+    "driverMBG": {
+      "type": "number",
+      "required": true
+    },
+    "spttToPay": {
+      "type": "number",
+      "required": true
+    },
+    "expenseRemarks": {
+      "type": "string"
+    },
+    "otherRemarks": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -55,5 +55,9 @@
   "OperatorCategory": {
     "dataSource": "mongoDs",
     "public": true
+  },
+  "MBG": {
+    "dataSource": "mongoDs",
+    "public": true
   }
 }

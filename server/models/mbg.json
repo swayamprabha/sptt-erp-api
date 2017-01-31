@@ -1,0 +1,34 @@
+{
+  "name": "MBG",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "vehicleMBG": {
+      "type": "object"
+    },
+    "driverMBG": {
+      "type": "object"
+    },
+    "spttToPay": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "operatorCategory": {
+      "type": "belongsTo",
+      "model": "OperatorCategory",
+      "foreignKey": ""
+    },
+    "vehicleCategory": {
+      "type": "belongsTo",
+      "model": "VehicleCategory",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

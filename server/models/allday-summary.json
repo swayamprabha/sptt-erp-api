@@ -79,7 +79,23 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "tripSummaries": {
+      "type": "hasMany",
+      "model": "TripSummary",
+      "foreignKey": ""
+    },
+    "driver": {
+      "type": "belongsTo",
+      "model": "Driver",
+      "foreignKey": ""
+    },
+    "vehicle": {
+      "type": "belongsTo",
+      "model": "Vehicle",
+      "foreignKey": ""
+    }
+  },
   "acls": [],
   "methods": {}
 }

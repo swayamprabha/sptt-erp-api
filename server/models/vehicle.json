@@ -40,7 +40,19 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "drivers": {
+      "type": "hasMany",
+      "model": "Driver",
+      "foreignKey": "",
+      "through": "AlldaySummary"
+    },
+    "vehicleCategory": {
+      "type": "belongsTo",
+      "model": "VehicleCategory",
+      "foreignKey": ""
+    }
+  },
   "acls": [],
   "methods": {}
 }

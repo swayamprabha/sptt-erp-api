@@ -50,7 +50,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "alldaySummary": {
+      "type": "belongsTo",
+      "model": "AlldaySummary",
+      "foreignKey": ""
+    }
+  },
   "acls": [],
   "methods": {}
 }

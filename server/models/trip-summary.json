@@ -6,6 +6,9 @@
     "validateUpsert": true
   },
   "properties": {
+    "operatorName": {
+      "type": "string"
+    },
     "tripOrigin": {
       "type": "string"
     },
@@ -44,9 +47,18 @@
     "airportToll": {
       "type": "number"
     },
+    "localToll": {
+      "type": "number"
+    },
     "rideEarnings": {
       "type": "number",
       "required": true
+    },
+    "incentives": {
+      "type": "number"
+    },
+    "remarks": {
+      "type": "string"
     }
   },
   "validations": [],

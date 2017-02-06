@@ -9,6 +9,10 @@
     "date": {
       "type": "date",
       "required": true
+    },   
+     "vehicleType": {
+      "type": "string",
+      "required": true
     },
     "loggedinDuration": {
       "type": "number",
@@ -58,18 +62,6 @@
     },
     "bata": {
       "type": "number"
-    },
-    "vehicleMBG": {
-      "type": "number",
-      "required": true
-    },
-    "driverMBG": {
-      "type": "number",
-      "required": true
-    },
-    "spttToPay": {
-      "type": "number",
-      "required": true
     },
     "expenseRemarks": {
       "type": "string"

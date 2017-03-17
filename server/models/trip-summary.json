@@ -23,8 +23,7 @@
       "required": true
     },
     "billAmount": {
-      "type": "number",
-      "required": true
+      "type": "number"
     },
     "cashCollected": {
       "type": "number"

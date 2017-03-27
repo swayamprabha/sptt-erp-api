@@ -48,10 +48,6 @@
     "dataSource": "mongoDs",
     "public": true
   },
-  "TripSummary": {
-    "dataSource": "mongoDs",
-    "public": true
-  },
   "OperatorCategory": {
     "dataSource": "mongoDs",
     "public": true

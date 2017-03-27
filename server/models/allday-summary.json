@@ -63,25 +63,15 @@
     "bata": {
       "type": "number"
     },
-    "expenseRemarks": {
-      "type": "string"
+    "trips": {
+      "type": "array"
     },
-    "otherRemarks": {
+    "remarks": {
       "type": "string"
     }
   },
   "validations": [],
   "relations": {
-    "tripSummaries": {
-      "type": "hasMany",
-      "model": "TripSummary",
-      "foreignKey": ""
-    },
-    "driver": {
-      "type": "belongsTo",
-      "model": "Driver",
-      "foreignKey": ""
-    },
     "vehicle": {
       "type": "belongsTo",
       "model": "Vehicle",

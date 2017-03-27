@@ -39,14 +39,6 @@
     }
   },
   "validations": [],
-  "relations": {
-    "vehicles": {
-      "type": "hasMany",
-      "model": "Vehicle",
-      "foreignKey": "",
-      "through": "AlldaySummary"
-    }
-  },
   "acls": [],
   "methods": {}
 }

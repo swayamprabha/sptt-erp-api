@@ -9,10 +9,6 @@
     "date": {
       "type": "date",
       "required": true
-    },   
-     "vehicleType": {
-      "type": "string",
-      "required": true
     },
     "loggedinDuration": {
       "type": "number",

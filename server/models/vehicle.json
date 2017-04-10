@@ -26,11 +26,11 @@
       "type": "date",
       "required": true
     },
-    "roadtaxDuedata": {
+    "roadtaxDuedate": {
       "type": "date",
       "required": true
     },
-    "serviceDuedata": {
+    "serviceDuedate": {
       "type": "date",
       "required": true
     },

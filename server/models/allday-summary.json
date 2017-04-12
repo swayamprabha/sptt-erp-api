@@ -10,53 +10,37 @@
       "type": "date",
       "required": true
     },
-    "loggedinDuration": {
-      "type": "number",
-      "required": true
-    },
     "openingOdo": {
       "type": "number"
     },
     "closingOdo": {
       "type": "number"
     },
-    "cashPaidByDriver": {
+    "internetCharges": {
       "type": "number"
     },
     "olaPayment": {
       "type": "number"
     },
-    "bankTransfer": {
-      "type": "number"
-    },
-    "penalty": {
+    "throughBank": {
       "type": "number"
     },
     "cancellationCharges": {
       "type": "number"
     },
-    "fuel": {
-      "type": "number"
-    },
-    "parkingFee": {
-      "type": "number"
-    },
-    "fine": {
-      "type": "number"
-    },
-    "toll": {
-      "type": "number"
-    },
-    "throughBank": {
-      "type": "number"
-    },
     "miscExpense": {
       "type": "number"
     },
-    "internetCharges": {
+    "fuelVoucher": {
       "type": "number"
     },
-    "bata": {
+    "paymentMade": {
+      "type": "number"
+    },
+    "penalty": {
+      "type": "number"
+    },
+    "deposit": {
       "type": "number"
     },
     "trips": {

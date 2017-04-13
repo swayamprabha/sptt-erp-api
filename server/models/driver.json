@@ -10,14 +10,6 @@
       "type": "string",
       "required": true
     },
-    "dlNumber": {
-      "type": "string",
-      "required": true
-    },
-    "driverAddress": {
-      "type": "string",
-      "required": true
-    },
     "driverDOB": {
       "type": "date",
       "required": true
@@ -25,16 +17,40 @@
     "driverDOA": {
       "type": "date"
     },
-    "driverContact": {
-      "type": "number",
+    "dlNumber": {
+      "type": "string",
       "required": true
     },
-    "dlExpiry": {
+     "dlExpiry": {
       "type": "date",
       "required": true
     },
     "badgeExpiry": {
       "type": "date",
+      "required": true
+    },
+     "PANnumber": {
+      "type": "string",
+      "required": true
+    },
+    "accountNumber": {
+      "type": "string",
+      "required": true
+    },
+    "bankName": {
+      "type": "string",
+      "required": true
+    },
+    "bankIFSC": {
+      "type": "string",
+      "required": true
+    },
+    "driverAddress": {
+      "type": "string",
+      "required": true
+    },
+    "driverContact": {
+      "type": "number",
       "required": true
     }
   },

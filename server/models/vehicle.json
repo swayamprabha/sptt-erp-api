@@ -6,6 +6,10 @@
     "validateUpsert": true
   },
   "properties": {
+    "ownershipType": {
+      "type": "string",
+      "required": true
+    },
     "regNumber": {
       "type": "string",
       "required": true
@@ -18,7 +22,7 @@
       "type": "string",
       "required": true
     },
-    "vehicleOwner": {
+    "vehicleCategoryId": {
       "type": "string",
       "required": true
     },
@@ -30,13 +34,21 @@
       "type": "date",
       "required": true
     },
-    "serviceDuedate": {
+    "permitExpiry": {
       "type": "date",
       "required": true
     },
-    "ownershipType": {
-      "type": "string",
-      "required": true
+    "serviceInterval": {
+      "type": "date"
+    },
+    "badgeExpiry": {
+      "type": "date"
+    },
+    "ownerName": {
+      "type": "string"
+    },
+    "driverName": {
+      "type": "string"
     }
   },
   "validations": [],

@@ -41,6 +41,10 @@
       "type": "string",
       "required": true
     },
+    "bankBranchName": {
+      "type": "string",
+      "required": true
+    },
     "bankIFSC": {
       "type": "string",
       "required": true

@@ -26,6 +26,9 @@
       "type": "string",
       "required": true
     },
+    "rankCatergory":{
+      "type": "string"
+    },
     "insuranceDuedate": {
       "type": "date",
       "required": true
@@ -56,6 +59,11 @@
     "vehicleCategory": {
       "type": "belongsTo",
       "model": "VehicleCategory",
+      "foreignKey": ""
+    },
+    "rankCatergory": {
+      "type": "belongsTo",
+      "model": "RankCatergory",
       "foreignKey": ""
     }
   },

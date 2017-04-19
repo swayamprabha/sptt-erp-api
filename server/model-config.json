@@ -55,5 +55,9 @@
   "MBG": {
     "dataSource": "mongoDs",
     "public": true
+  },
+  "RankCatergory": {
+    "dataSource": "mongoDs",
+    "public": true
   }
 }

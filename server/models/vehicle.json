@@ -52,6 +52,21 @@
     },
     "driverName": {
       "type": "string"
+    },
+     "PANnumber": {
+      "type": "string"
+    },
+    "accountNumber": {
+      "type": "string"
+    },
+    "bankName": {
+      "type": "string"
+    },
+    "bankBranchName": {
+      "type": "string"
+    },
+    "bankIFSC": {
+      "type": "string"
     }
   },
   "validations": [],

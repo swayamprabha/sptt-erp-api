@@ -18,6 +18,9 @@
       "type": "string",
       "required": true
     },
+    "finoId": {
+      "type": "string"
+    },
     "vehicleModel": {
       "type": "string",
       "required": true

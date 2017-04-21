@@ -19,9 +19,6 @@
     "internetCharges": {
       "type": "number"
     },
-    "olaPayment": {
-      "type": "number"
-    },
     "throughBank": {
       "type": "number"
     },

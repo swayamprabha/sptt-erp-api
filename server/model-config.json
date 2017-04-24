@@ -59,5 +59,9 @@
   "RankCatergory": {
     "dataSource": "mongoDs",
     "public": true
+  },
+  "CashEntry": {
+    "dataSource": "mongoDs",
+    "public": true
   }
 }

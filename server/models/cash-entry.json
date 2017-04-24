@@ -1,0 +1,52 @@
+{
+  "name": "CashEntry",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "date": {
+      "type": "date"
+    },
+    "vehicleId": {
+      "type": "string"
+    },
+    "olaPayment": {
+      "type": "number"
+    },
+    "vehicleIncentive": {
+      "type": "number"
+    },
+    "vehicleRecovery": {
+      "type": "number"
+    },
+    "driverId": {
+      "type": "string"
+    },
+    "cashPaid": {
+      "type": "number"
+    },
+    "driverIncentive": {
+      "type": "number"
+    },
+    "driverRecovery": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "vehicle": {
+      "type": "belongsTo",
+      "model": "Vehicle",
+      "foreignKey": ""
+    },
+    "driver": {
+      "type": "belongsTo",
+      "model": "Driver",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

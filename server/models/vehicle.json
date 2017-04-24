@@ -21,6 +21,9 @@
     "finoId": {
       "type": "string"
     },
+     "fuelcardNumber": {
+      "type": "string"
+    },
     "vehicleModel": {
       "type": "string",
       "required": true
